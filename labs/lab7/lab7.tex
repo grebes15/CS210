@@ -1,0 +1,149 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{paralist}
+\usepackage{amsmath}
+\begin{document}
+\noindent
+Andreas Landgrebe
+\\
+November 15, 2013
+\\
+Laboratory Assignment \# 7
+\\
+\textbf{1a) Using the Karnaugh map method, find a boolean expression (in the form of a sum of products) for the following function. Show the Karnaugh map and indicate the relationship between the terms in your answer and the circled "1"s in the Karnaugh map:}
+\\
+\\
+\\
+\begin{tabular}{cc|c|c|c|c|l}
+\cline{3-6}
+& & \multicolumn{4}{ c| }{CD} \\ \cline{3-6}
+& & 00 & 01 & 11 & 10 \\ \cline{1-6}
+\multicolumn{1}{ |c| }{\multirow{4}{*}{AB} } &
+\multicolumn{1}{ |c| }{00} & 0 & 0 & 1 & 0 &     \\ \cline{2-6}
+\multicolumn{1}{ |c  }{}                        &
+\multicolumn{1}{ |c| }{01} & 0 & 0 & 1 & 1 &     \\ \cline{2-6}
+\multicolumn{1}{ |c  }{}						   &
+\multicolumn{1}{ |c| }{11} & 1 & 0 & 1 & 1 &  \\ \cline{2-6}
+\multicolumn{1}{ |c  }{}                        &
+\multicolumn{1}{ |c| }{10} & 0 & 0 & 0 & 0 &  \\ \cline{1-6}
+\end{tabular}
+\\
+The Boolean Expression will be:
+\\
+\textbf{A\={C} + BC + \={A}CD}
+\\
+\\
+\\
+\textbf{The answer of 1b is the screenshot of Simcir.}
+\\
+\\
+\\
+\textbf{2a) Using De Morgan's laws, find the negation of the following expressions, expressing the negation as a product of sums:}
+\begin{itemize}
+\item A * \={B} * \={C} + \={A} * \={B} + \={B} * C
+\\
+= (A * \={B} * \={C}) + (\={A} * \={B}) + (\={B} * C) 
+\\
+= $\overline{(A + B + \overline{C}) * (\overline{A} + B) * (\overline{B} + C)}$
+\\
+= (\={A} + \={B} + $\overline{\overline{C}}$) * ($\overline{\overline{A}}$ + \={B}) * $\overline{\overline{B}} + C$)
+\\
+= (\={A} + \={B} + C) * (A + \={B}) * (B + \={C})   
+\\
+\\
+\item \={A} * C + B * C + \={A} * \={B} * \={C}
+\\
+= (\={A} * C) + (B * C) + (\={A} * \={B} * \={C})
+\\
+= $\overline{(\overline{A} + C) * (B + C) * (\overline{A} + \overline{B} + \overline{C}}$
+\\
+= ($\overline{\overline{A}}$ + \={C}) * (\={B} + \={C}) * ($\overline{\overline{A}}$ + $\overline{\overline{B}}$ + $\overline{\overline{C}}$)  
+\\
+= (A + \={C}) * (\={B} + \={C}) * (A + B + C)
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\ 
+\end{itemize}
+\textbf{2b) Using De Morgan's laws, find the negation of the following expressions, expressing the negation as a sum of products.}
+\begin{itemize}
+\item (\={A} + B + C) * (\={B} + \={C}) * (A + \={C}
+\\
+= $\overline{(\overline{A} * B * C) + (\overline{B} * \overline{C}) + (A * \overline{C}}$) 
+\\
+= ($\overline{\overline{A}}$ * \={B} * \={C}) + ($\overline{\overline{B}}$ * $\overline{\overline{C}}$ + (\={A} * $\overline{\overline{C}}$) 
+\\
+= (A * \={B} * \={C}) + (B * C) + (\={A} * C) 
+\\
+\\
+\item (A + B + \={C}) * (\={A} + \={B} + C) * (A + B)
+\\
+= $\overline{(A * B * \overline{C}) + ) + (\overline{A} * \overline{B} * C) + (A * B)}$
+\\
+= (\={A} * \={B} * $\overline{\overline{C}}$) + ($\overline{\overline{A}}$ * $\overline{\overline{B}}$ * \={C}) + (\={A} * \={B})
+\\
+= (\={A} * \={B} * C) + (A * B * \={C}) + (\={A} + \={B})       
+\end{itemize}
+
+\textbf{3) Find the CNF representation to the function $f$ described in problem 1. Use the Karnaugh map method to find the DNF representation of the complement, then use the DeMorgan's laws to convert that into a CNF formula for $f$}
+\\
+\\
+\\
+\begin{tabular}{cc|c|c|c|c|l}
+\cline{3-6}
+& & \multicolumn{4}{ c| }{CD} \\ \cline{3-6}
+& & 00 & 01 & 11 & 10 \\ \cline{1-6}
+\multicolumn{1}{ |c| }{\multirow{4}{*}{AB} } &
+\multicolumn{1}{ |c| }{00} & 0 & 0 & 1 & 0 &     \\ \cline{2-6}
+\multicolumn{1}{ |c  }{}                        &
+\multicolumn{1}{ |c| }{01} & 0 & 0 & 1 & 1 &     \\ \cline{2-6}
+\multicolumn{1}{ |c  }{}						   &
+\multicolumn{1}{ |c| }{11} & 1 & 0 & 1 & 1 &  \\ \cline{2-6}
+\multicolumn{1}{ |c  }{}                        &
+\multicolumn{1}{ |c| }{10} & 0 & 0 & 0 & 0 &  \\ \cline{1-6}
+\\
+\end{tabular}
+A\={C} + BC + \={A}CD
+\\
+\\
+\\
+$\overline{(A + \overline{C}) * (B + C) * (\overline{A} + C + D)}$
+\\
+= (\={A} + $\overline{\overline{C}}$) * (\={B} + \={C}) * ($\overline{\overline{A}}$ + \={C} + \={D})
+\\
+= (\={A} + C) * (\={B} + \={C}) * (A + \={C} + \={D})   
+\textbf{4) For each of the following expressions, transform it from its current form (DNF or CNF) into the other using the above laws of boolean algebra. Show several intermediate steps; don't just show the final answers. Your final expression should be as simple as you can make it subject to the restriction that it is in CNF or DNF form). Thus, AB + ABC should be simplified to just AB since AB + ABC = AB(1 + C) = AB1 = AB, etc.}
+\\
+\\
+\begin{inparaenum}[\itshape a\upshape)]
+\textbf{\item AB + \={B}\={C} + \={A}C (transform into CNF)}
+\\
+= (AB + \={B})(AB + \={C} + \={A}C
+\\
+= (AB + \={B})(AB + \={C}) + \={A})(AB + \={B})(AB + \={C}) + C
+\\
+= (AB AB + AB\={C} + \={B}AB + \={B}\={C} + \={A})(AB AB + AB\={C} + \={B}AB + \={B}\={C} + C)
+\\
+= (AB + AB\={C} + \={B}\={C} + \={A})(AB + AB\={C} + \={B}AB + \={B}\={C} + C)
+\\
+= (AB + \={B}\={C} + \={A})(AB + \={B}\={C} + C)   
+\\
+\\
+\textbf{\item (\={A} + B + C) * (A + \={B}) (transform into DNF)}
+\\
+= \={A}A + \={A}\={B} + BA + B\={B} + CA + C\={B}
+\\
+= 0 + \={A}\={B} + AB + 0 + CA + C\={B}
+\\
+= \={A}\={B} + AB + CA + C\={B}
+\\
+= \={A}\={B} + AB + C(A + \={B})
+\\
+= 1 + C(A + \={B})
+\end{inparaenum}
+\end{document}

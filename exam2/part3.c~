@@ -1,0 +1,35 @@
+/*Andreas Landgrebe
+November 19, 2013
+Part 3 of the Take Home Exam
+This C program will input 2 intger values and determine how many bits these two values have in common.
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+main(){
+	int i1; //read in the first integer
+	int i2; //read in the second integer
+	printf("Please enter the first interger: ");
+	scanf("%d", &i1); //scans the first integer by looking at the address of the i1 interger value being scanned in.
+	printf("Please enter the second integer: ");
+	scanf("%d", &i2); //scans the second integer by lookingat the address of the i2 integer value being scanned in 
+
+	int bitset;
+	bitset = i1 ^ i2; //using boolean algebra, i1 xor i2
+	//printf("%d\n", sizeof(bitset));
+	printf("%x %x %x\n", i1, i2, bitset);
+	int countcommon = 0;
+	int mask = 1;
+	int position;
+	for(position = 0; position <= 31; position++){
+		if(((i1 ^ i2) & mask) == 0){
+			countcommon++;
+		}
+		mask = mask << 1;
+	}
+	printf("%d and %d have %d bits in common", i1, i2, countcommon);
+	printf("\n");
+}
+
+

@@ -1,0 +1,32 @@
+/*Andreas Landgrebe
+Part 5 of Laboratory Assignment # 6
+October 28, 2013
+Part 2 of Laws of Arithmetic
+This C program is showing that the floating point is not able to hold the distributive law. The distributive law that I am showing does not hold in floating point goes as this a(b+c) = ab + ac */
+
+#include <stdio.h>
+
+main() {
+	//this method will figure out the facotorial numbers using a float
+	float factorialFloat(float x){
+		if(x<=1.0)
+			return(1.0);
+		else
+			x = x * factorialFloat(x - 1.0);
+		return x;
+	}
+
+		float a;
+		a = factorialFloat(30.0);
+		float b;
+		b = factorialFloat(30.0);
+		float c;
+		c = -factorialFloat(30.0);
+		if(a*(b + c) == a*b + a*c){
+			printf("%e\n",a*(b+c));
+			printf("The distributibe law holds \n");
+		}else{
+			printf("The distributive law does not hold \n");
+	}
+
+}

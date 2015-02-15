@@ -1,0 +1,10 @@
+Script started on Tue 24 Sep 2013 10:34:57 AM EDT
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/labs/lab3landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/labs/lab3$ gcc lab3.c -o l ab3
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/labs/lab3landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/labs/lab3$ ./lab3
+Enter the two values to be added: 40
+50
+The sum of 40 and 50 is 90
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/labs/lab3landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/labs/lab3$ exit
+exit
+
+Script done on Tue 24 Sep 2013 10:35:16 AM EDT

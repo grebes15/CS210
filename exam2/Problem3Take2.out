@@ -1,0 +1,30 @@
+Script started on Tue 19 Nov 2013 09:52:19 AM EST
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ exit[2P18./part3
+Please enter the first interger: 1
+Please enter the second integer: -1
+1 ffffffff fffffffe
+1 and -1 have 1 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ./part3
+Please enter the first interger: 201
+Please enter the second integer: 32767
+c9 7fff 7f36
+201 and 32767 have 21 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ./part3
+Please enter the first interger: 15
+Please enter the second integer: 30
+f 1e 11
+15 and 30 have 30 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ./part3
+Please enter the first interger: 18
+Please enter the second integer: 100
+12 64 76
+18 and 100 have 27 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ exit[K[K[K[K./part3
+Please enter the first interger: -1
+Please enter the second integer: 0
+ffffffff 0 ffffffff
+-1 and 0 have 0 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ exit
+exit
+
+Script done on Tue 19 Nov 2013 09:53:24 AM EST

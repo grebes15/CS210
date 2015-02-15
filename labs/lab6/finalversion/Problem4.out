@@ -1,0 +1,9 @@
+Script started on Mon 28 Oct 2013 11:17:17 PM EDT
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ gcc lab6c4 [K.c -o lab6c4
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ ./lab6c4
+The Smallest Positive Integer that can added to 1 without changing its value is 1.110223e-16
+The two expressions are not equal 
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ exit
+exit
+
+Script done on Mon 28 Oct 2013 11:18:06 PM EDT

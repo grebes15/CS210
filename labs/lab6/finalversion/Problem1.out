@@ -1,0 +1,22 @@
+Script started on Mon 28 Oct 2013 11:14:40 PM EDT
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ gcc lab5[K6c1.c -o lab6c1
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ lab6c1[K[K[K[K[K[K./ [Klab6c1
+Enter a float value: -11.1
+In hex: c131999a
+1 10000010 01100011001100110011010
+Sign: -
+Exponent: 2^3
+Fraction: 0.387500
+Significand: 1.387500
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ ./lab6c1
+Enter a float value: 0 .005
+In hex: 3ba3d70a
+0 01110111 01000111101011100001010
+Sign: +
+Exponent: 2^4294967288
+Fraction: 0.280000
+Significand: 1.280000
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ exit
+exit
+
+Script done on Mon 28 Oct 2013 11:15:36 PM EDT

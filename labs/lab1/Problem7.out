@@ -1,0 +1,15 @@
+Script started on Tue 10 Sep 2013 08:56:13 AM EDT
+]0;landgrebea@aldenv160: ~/cs210/labslandgrebea@aldenv160:~/cs210/labs$ ls -orth
+total 44K
+-rw-r--r-- 1 landgrebea  483 Sep  3 15:10 table.c~
+-rw-r--r-- 1 landgrebea  493 Sep  3 15:11 table.c
+-rwxr-xr-x 1 landgrebea 8.3K Sep  3 15:11 [0m[01;32mtable[0m
+-rw-r--r-- 1 landgrebea  456 Sep  3 16:14 lab1.c~
+-rwxr-xr-x 1 landgrebea 8.5K Sep  3 21:16 [01;32mlab1[0m
+-rw-r--r-- 1 landgrebea  831 Sep  3 21:33 lab1.c
+-rw-r--r-- 1 landgrebea 1.5K Sep 10 08:55 Problem6.out
+-rw-r--r-- 1 landgrebea    0 Sep 10 08:56 Problem7.out
+]0;landgrebea@aldenv160: ~/cs210/labslandgrebea@aldenv160:~/cs210/labs$ exit
+exit
+
+Script done on Tue 10 Sep 2013 08:56:23 AM EDT

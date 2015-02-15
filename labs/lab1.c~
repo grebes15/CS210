@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <time.h>
+#include <math.h>
+
+main(){
+    time_t now; /* "time_t is a special type for holding time data */
+
+    time(&now); /* "time" get the current time */
+    printf("Bob Roos\nLab 1\n%s\n",ctime(&now)); /* "ctime" formats it */
+    printf("%s%10s%10s%10s%10s\n", "x", "1/(x^2)", "sqrt(n)", "log_3(n)", "1.1^x");
+    //pow()()
+    //log10(n)/log10(3)
+    int y;
+    for( y = 1; y<=32; y++){
+        printf("%d\n", y);
+    }
+}

@@ -1,0 +1,29 @@
+Script started on Mon 18 Nov 2013 10:55:55 PM EST
+]0;landgrebea@aldenv102: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv102:~/Documents/sophomore/fall/cs210/exam2$ ./part5
+  x     f(x)
+----- ----------
+1      1.381773
+2      0.986301
+3      -2.546617
+4      -5.641784
+5      -3.376310
+6      4.084529
+7      9.876222
+8      6.750866
+9      -4.491106
+10      -13.830926
+11      -10.951210
+12      3.687372
+13      17.258980
+14      15.782824
+15      -1.641001
+16      -19.929005
+17      -21.021534
+18      -1.632070
+19      21.633055
+20      26.420546
+21      6.067454
+]0;landgrebea@aldenv102: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv102:~/Documents/sophomore/fall/cs210/exam2$ exit
+exit
+
+Script done on Mon 18 Nov 2013 10:56:01 PM EST

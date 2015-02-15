@@ -1,0 +1,21 @@
+/*Andreas Landgrebe
+Computer Science 210
+Fall Semseter 2013
+
+*/
+
+#include <stdio.h>
+
+void rotate(int i[], int s, int a){
+
+
+
+
+
+}
+
+main(){
+
+
+
+}

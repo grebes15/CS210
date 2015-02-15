@@ -1,0 +1,49 @@
+/*Andreas Landgrebe
+Part 5 of Laboratory Assignment # 6
+October 28, 2013
+Precision
+In this C program, I will set factorial to go through float points and to go through an unsigned long. I am testing where the precision breaks for an unsigned long varible and for a float point. */
+#include <stdio.h>
+
+main() {
+	//method to solve the factorial number when solving for unsigned long intergers
+ 	unsigned long factorial (unsigned long x) {
+
+		if (x<=1) //when x is less than or equal to 1, it will return 1
+			return(1);
+		else
+			x=x*factorial(x-1);
+		return(x);
+	}
+	//method to solve the fatorial number when solving for float points. It is the same method as the one before but this method is for float points.
+	float factorialFloat(float x){
+		if(x<=1.0) //when x is less than or equal to 1, it will return 1
+			return(1.0);
+		else
+			x = x * factorialFloat(x - 1.0);
+		return x;
+	}
+	unsigned long x;
+	x = 1;
+	//while loop to go through where the factorial numbers are going to start breaking. If the factorial number of x divided by x is equal to the previous factorial value, The value of x will be increased by 1. Once the while loop, the x will decrease by 1 to show where the factorial number was broken.
+	while(factorial(x) / x == factorial(x-1)){
+		x++;
+	}
+	x--;
+		printf("Here is the factorial numbers before it breaks %d is %u\n", x, factorial(x)); // will display where the facotorial number breaks
+		int i;
+		for(i = 1; i <= 36; i++){
+			printf("%d: %f\n", i, factorialFloat(i));
+		}
+		//the precision breaks at 35, so the for loop will go through the first 36 factorial numbers.
+
+		float r;
+		r = 1.0;
+		//this is the same while loop as the one above but this will be testing where the floating point will break. 
+		while(factorialFloat(r) / r == factorialFloat(r -1.0)) {
+
+			r++;
+		}
+		r--;
+		printf("Here is the float factorial number before the precision breaks %f is %e\n", r, factorialFloat(r)); // will display where the precision of the float point will break.
+}

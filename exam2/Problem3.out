@@ -1,0 +1,31 @@
+Script started on Tue 19 Nov 2013 09:50:45 AM EST
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ exit./part5script Problem5part33.out[A]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ [12P./part5
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc part5.c -lm -o ppart5[A]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ script Problem5part2.out[A]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ [12P./part5
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc part5.c -lm -o ppart5[A]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd exam2ls[Kcd exam2ls[Kgcc part5.c -lm -o ppart5[A]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ [12P./part5
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K4[K3
+Please enter the first interger: 1
+Please enter the second integer: -1
+1 ffffffff fffffffe
+1 and -1 have 1 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ./part3
+Please enter the first interger: 201
+Please enter the second integer: 32767
+c9 7fff 7f36
+201 and 32767 have 21 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ./part3
+Please enter the first interger: -1
+Please enter the second integer: 0
+ffffffff 0 ffffffff
+-1 and 0 have 0 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ ./part3
+Please enter the first interger: 15
+Please enter the second integer: 30
+f 1e 11
+15 and 30 have 30 bits in common
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ 18
+18: command not found
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/exam2landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/exam2$ 1^?[K[K18./part3[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Tue 19 Nov 2013 09:52:10 AM EST

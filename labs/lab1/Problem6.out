@@ -1,0 +1,13 @@
+Script started on Tue 10 Sep 2013 09:20:48 AM EDT
+]0;landgrebea@aldenv160: ~/cs210/labslandgrebea@aldenv160:~/cs210/labs$ exitwc /opt/processing/processing-wml /opt/processing/processing[5P/opt/processing/processingexit[K[Kman -k fortran
+f2py (1)             - Fortran to Python interface generator
+f2py2.7 (1)          - Fortran to Python interface generator
+f95 (1)              - GNU Fortran compiler
+gfortran (1)         - GNU Fortran compiler
+gfortran-4.6 (1)     - GNU Fortran compiler
+x86_64-linux-gnu-gfortran (1) - GNU Fortran compiler
+x86_64-linux-gnu-gfortran-4.6 (1) - GNU Fortran compiler
+]0;landgrebea@aldenv160: ~/cs210/labslandgrebea@aldenv160:~/cs210/labs$ exit
+exit
+
+Script done on Tue 10 Sep 2013 09:20:58 AM EDT

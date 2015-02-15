@@ -1,0 +1,71 @@
+Script started on Mon 09 Dec 2013 08:58:29 PM EST
+]0;landgrebea@aldenv102: ~/Documents/sophomore/fall/cs210/finalProjectlandgrebea@aldenv102:~/Documents/sophomore/fall/cs210/finalProject$ cs[K[K./Part5 ,[K<Par t5Coordinates.txt
+main: 
+		# Get to first vertex, (100,100)
+	li 	 $a0,100 
+	li 	 $a1,0 	 
+	jal 	 horiz 
+
+	li 	 $a0,100 
+	li 	 $a1,0 	 
+	jal 	 vert 
+
+		# Now draw to (200,100) 
+	li 	 $a0,200 
+	li 	 $a1,1 	 
+	jal 	 horiz 
+
+	li 	 $a0,100 
+	li 	 $a1,1 	 
+	jal 	 vert 
+
+		# Now draw to (271,171) 
+	li 	 $a0,271 
+	li 	 $a1,1 	 
+	jal 	 horiz 
+
+	li 	 $a0,171 
+	li 	 $a1,1 	 
+	jal 	 vert 
+
+		# Now draw to (200,242) 
+	li 	 $a0,200 
+	li 	 $a1,1 	 
+	jal 	 horiz 
+
+	li 	 $a0,242 
+	li 	 $a1,1 	 
+	jal 	 vert 
+
+		# Now draw to (100,242) 
+	li 	 $a0,100 
+	li 	 $a1,1 	 
+	jal 	 horiz 
+
+	li 	 $a0,242 
+	li 	 $a1,1 	 
+	jal 	 vert 
+
+		# Now draw to (29,171) 
+	li 	 $a0,29 
+	li 	 $a1,1 	 
+	jal 	 horiz 
+
+	li 	 $a0,171 
+	li 	 $a1,1 	 
+	jal 	 vert 
+
+		# Now draw to (100,100) 
+	li 	 $a0,100 
+	li 	 $a1,1 	 
+	jal 	 horiz 
+
+	li 	 $a0,100 
+	li 	 $a1,1 	 
+	jal 	 vert 
+	li 	 $v0,10 
+	syscall 
+]0;landgrebea@aldenv102: ~/Documents/sophomore/fall/cs210/finalProjectlandgrebea@aldenv102:~/Documents/sophomore/fall/cs210/finalProject$ exit
+exit
+
+Script done on Mon 09 Dec 2013 08:58:58 PM EST

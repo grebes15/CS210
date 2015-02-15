@@ -1,0 +1,10 @@
+Script started on Tue 24 Sep 2013 10:36:01 AM EDT
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/labs/lab3landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/labs/lab3$ gcc pab3[K[K[K[Klab3part2.c  -0[Ko lab3part2
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/labs/lab3landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/labs/lab3$ ./lab3part2
+First name: Andreas
+Last name: Landgrebe
+Hello, Andreas Landgrebe!
+]0;landgrebea@aldenv151: ~/Documents/sophomore/fall/cs210/labs/lab3landgrebea@aldenv151:~/Documents/sophomore/fall/cs210/labs/lab3$ exit
+exit
+
+Script done on Tue 24 Sep 2013 10:36:33 AM EDT

@@ -1,0 +1,8 @@
+Script started on Mon 28 Oct 2013 11:19:02 PM EDT
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ gcc lab6c5.c -o lab6c5
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ ./lab6c5
+The distributive law does not hold 
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ ./[K[Kexit
+exit
+
+Script done on Mon 28 Oct 2013 11:19:33 PM EDT

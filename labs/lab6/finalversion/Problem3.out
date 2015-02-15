@@ -1,0 +1,48 @@
+Script started on Mon 28 Oct 2013 11:16:31 PM EDT
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ gcc lab6c3 [K -o lab6c3[C[C[1@.[1@c[C[C[C[C[C[C[C[C[C[C
+lab6c3.c: In function ‘main’:
+lab6c3.c:33:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat]
+lab6c3.c:33:3: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 3 has type ‘long unsigned int’ [-Wformat]
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ lab[K[K[K./lab6c3
+Here is the factorial numbers before it breaks 20 is 2192834560
+1: 1.000000
+2: 2.000000
+3: 6.000000
+4: 24.000000
+5: 120.000000
+6: 720.000000
+7: 5040.000000
+8: 40320.000000
+9: 362880.000000
+10: 3628800.000000
+11: 39916800.000000
+12: 479001600.000000
+13: 6227020800.000000
+14: 87178289152.000000
+15: 1307674279936.000000
+16: 20922788478976.000000
+17: 355687414628352.000000
+18: 6402373530419200.000000
+19: 121645096004222976.000000
+20: 2432902023163674624.000000
+21: 51090940837169725440.000000
+22: 1124000724806013026304.000000
+23: 25852017444594485559296.000000
+24: 620448454699064672387072.000000
+25: 15511211079246240657965056.000000
+26: 403291499589617303175561216.000000
+27: 10888870415132690890901946368.000000
+28: 304888371623715344945254498304.000000
+29: 8841763079319199907069674127360.000000
+30: 265252889961724357982831874408448.000000
+31: 8222839685527520666638122083155968.000000
+32: 263130869936880661332419906660990976.000000
+33: 8683318509846655538309012935952826368.000000
+34: 295232822996533287161359432338880069632.000000
+35: inf
+36: inf
+Here is the float factorial number before the precision breaks 19.000000 is 1.216451e+17
+]0;landgrebea@aldenv189: ~/Documents/sophomore/fall/cs210/labs/lab6/finalversionlandgrebea@aldenv189:~/Documents/sophomore/fall/cs210/labs/lab6/finalversion$ exit [K
+exit
+
+Script done on Mon 28 Oct 2013 11:17:10 PM EDT

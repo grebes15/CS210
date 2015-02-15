@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define MAXSTRING 20
+
+main(){
+
+char x[MAXSTRING];
+char y[MAXSTRING];
+
+printf("First name: ");
+scanf("%s", x);
+
+printf("Last name: ");
+scanf("%s", y);
+
+printf("Hello, %s %s!\n", x, y);
+
+}
